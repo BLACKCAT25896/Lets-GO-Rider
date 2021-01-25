@@ -143,7 +143,7 @@ public class SplashScreenActivity extends AppCompatActivity {
 
     private void gotoHomeActivity(RiderModel riderModel) {
         Common.currentUser = riderModel;
-        startActivity(new Intent(SplashScreenActivity.this, RiderModel.class));
+        startActivity(new Intent(SplashScreenActivity.this, RiderActivity.class));
         finish();
     }
 

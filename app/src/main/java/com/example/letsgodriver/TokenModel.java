@@ -1,7 +1,7 @@
 package com.example.letsgodriver;
 
 public class TokenModel {
-    private String token;
+    public String token;
 
     public TokenModel() {
     }

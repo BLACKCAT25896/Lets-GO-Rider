@@ -42,7 +42,7 @@ public class UserUtils {
         FirebaseDatabase.getInstance()
                 .getReference(Common.TOKEN_REFERENCE)
                 .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                .setValue(token)
+                .setValue(tokenModel)
                 .addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
